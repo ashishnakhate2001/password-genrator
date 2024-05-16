@@ -54,3 +54,11 @@ function genrate_random_password(){
 
 
 window.onload = genrate_random_password;
+
+
+
+document.getElementById("darkMode").onclick = function() {toggleDarkMode()};
+
+function toggleDarkMode() {
+  document.body.classList.toggle('dark');
+}
