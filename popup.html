@@ -1,0 +1,26 @@
+
+ <!-- Chrome extension that genrate random password.
+   Connect to javascript file called popup.js and CSS file called style.css
+   Will render the following buttons with id's:
+   show_password
+  genrate_random
+copy_to_clipboard -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+  <body>
+    <input type="text" id="show_password">
+    <button id="genrate_random">Genrate Random</button>
+    <button id="copy_to_clipboard">Copy to Clipboard</button>
+    <!-- Add checkboxes for character types -->
+    <label><input type="checkbox" id="includeLowercase" checked> Include Lowercase Letters</label>
+    <label><input type="checkbox" id="includeUppercase" checked> Include Uppercase Letters</label>
+    <label><input type="checkbox" id="includeNumbers" checked> Include Numbers</label>
+    <label><input type="checkbox" id="includeSymbols" checked> Include Symbols</label>
+    <script src="popup.js"></script>
+    
+  </body>
