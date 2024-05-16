@@ -12,6 +12,7 @@ This is a Chrome extension that generates a random password.
 
 1. Click on the extension icon to open the popup.
 2. Click on the "Generate Random" button to generate a new random password.
+![alt text](image-2.png)
 3. The generated password will be displayed in the text box.
 4. Click on the "Copy to Clipboard" button to copy the password to the clipboard.
 
