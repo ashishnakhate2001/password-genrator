@@ -34,6 +34,9 @@ This extension requires the `clipboardWrite` permission to copy the password to 
 Follow these steps to add this extension to your Chrome browser:
 
 1. Open the Chrome browser and navigate to `chrome://extensions`.
+![alt text](image.png)
+
 2. Enable Developer mode by clicking the toggle switch at the top right.
+
 3. Click the "Load unpacked" button and select the directory for this extension.
 4. The extension should now be added to your browser. You can access it by clicking the extension icon in the toolbar.
